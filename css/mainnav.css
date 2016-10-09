@@ -13,14 +13,11 @@
     display:none;
 }
 
-ul#nav{
-}
-
-ul#nav li{
+.nav li{
     list-style: none;
 }
 
-ul#nav li a{
+.nav li a{
     color: #ccc;
     display: block;
     padding: 10px;
@@ -31,15 +28,36 @@ ul#nav li a{
     -o-transition: 0.2s;
     transition: 0.2s;
 }
-ul#nav li a.selected{
+
+.nav li a.selected{
     background-color: #030303;
     color: #fff;
 }
 
-ul#nav li a:hover{
+.nav li a:hover{
     background-color: #030303;
     color: #fff;
     padding-left: 15px;
+}
+
+.nav li:hover .subnav {
+  display: block;
+  max-height: 200px;
+}
+
+.subnav a {
+  background-color: #999;
+  padding-left: 30px;
+}
+
+.subnav a:hover {
+  background-color: #666;
+}
+
+.subnav {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s ease-out;
 }
 
 @media screen 
