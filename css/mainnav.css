@@ -62,9 +62,6 @@
 
 @media screen 
   and (max-width: 320px) {
-      /*a.mobile{
-        display: block;
-      }*/
       .sidebar{
           width: 100%;
       }

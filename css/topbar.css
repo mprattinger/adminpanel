@@ -43,7 +43,7 @@ div.userinfo div {
 }
 div.userinfo button {
     margin-left: 30px;
-    margin-top:7px;
+    margin-top:11px;
     background-color: #1ab188;
     color:white;
     border-radius: 4px;
@@ -54,3 +54,13 @@ div.userinfo button {
     color:white;
     border-radius: 4px;
 }*/
+
+@media screen 
+  and (max-width: 600px) {
+      .username{
+          display: none;
+      }
+.logout-text{
+          display: none;
+      }      
+}
