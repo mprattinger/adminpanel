@@ -62,6 +62,6 @@ a.mobile{
     padding: 7px;
 }
 
-a.mobile::active{
+a.mobile:active{
     background-color: #4a4a4a;
 }
