@@ -13,11 +13,11 @@
     display:none;
 }
 
-.nav li{
+.menu li{
     list-style: none;
 }
 
-.nav li a{
+.menu li a{
     color: #ccc;
     display: block;
     padding: 10px;
@@ -29,12 +29,12 @@
     transition: 0.2s;
 }
 
-.nav li a.selected{
+.menu li a.selected{
     background-color: #030303;
     color: #fff;
 }
 
-.nav li a:hover{
+.menu li a:hover{
     background-color: #030303;
     color: #fff;
     padding-left: 15px;
@@ -45,16 +45,16 @@
   max-height: 200px;
 }*/
 
-.subnav a {
+.submenu a {
   background-color: #999;
   padding-left: 30px;
 }
 
-.subnav a:hover {
+.submenu a:hover {
   background-color: #666;
 }
 
-.subnav {
+.submenu {
   overflow: hidden;
   max-height: 0;
   transition: all 0.5s ease-out;
