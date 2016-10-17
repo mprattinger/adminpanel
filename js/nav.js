@@ -6,8 +6,10 @@ $(document).ready(function(){
         if(!isMobile()){
             //Big Screen
             $(".sidebar").show();
+            $(".userinfo").show();
         }else{
             $(".sidebar").hide();
+            $(".userinfo").hide();
             deactivateMiniBar();
         }
     });
