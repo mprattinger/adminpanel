@@ -2,7 +2,9 @@
 
 <head>
 	<title>Admin Panel</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/panel.css" type="text/css">
 	<link rel="stylesheet" href="css/topbar.css" type="text/css">
 	<link rel="stylesheet" href="css/mainnav.css" type="text/css">
@@ -29,16 +31,16 @@
 	<div id="container">
 		<div class="sidebar">
 			<ul class="menu">
-				<li><a href="#" class="selected">D<span>ashboard</span></a>
+				<li><a href="#"><i class="icon flaticon-busines-card"></i><span>Mitarbeiter</span></a></li>
+				<li><a href="#" class="has-sub-menu"><i class="icon flaticon-work-team"></i><span>Usermanagement</span></a>
 					<ul class="submenu">
-						<li><a href="#">Benutzer</a></li>
-						<li><a href="#">Rollen</a></li>
+						<li><a href="#"><i class="icon flaticon-worker-with-tie"></i><span>Butzer</span></a></li>
+						<li><a href="#"><i class="icon flaticon-chain-of-command"></i><span>Rollen</span></a></li>
 					</ul>
 				</li>
-				<li><a href="#">B<span>ooterHub</span></a>
+				<li><a href="#" class="has-sub-menu"><i class="icon flaticon-two-big-gears"></i><span>Einstellungen</span></a>
 					<ul class="submenu">
-						<li><a href="#">S<span>tresser</span></a></li>
-						<li><a href="#">F<span>riends</span></a></li>
+						<li><a href="#"><i class="icon flaticon-calendar-with-squares"></i><span>Feiertage</span></a></li>
 					</ul>
 				</li>
 			</ul>
@@ -83,6 +85,7 @@
 	</div>
 
 	<script src="lib/jquery-3.1.1.min.js"></script>
+	<script src="lib/bootstrap.js"></script>
 	<script src="js/nav.js"></script>
 </body>
 
