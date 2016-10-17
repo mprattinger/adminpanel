@@ -48,9 +48,19 @@ div.userinfo button {
     color:white;
     border-radius: 4px;
 }
-/*div.userinfo button:hover {
-    text-decoration: none !important;
-    background-color: #1ab188;
-    color:white;
-    border-radius: 4px;
-}*/
+.lastname {
+    font-weight: 600;
+}
+
+@media screen 
+  and (max-width: 600px) {
+      .username{
+          display: none;
+      }
+.logout-text{
+          display: none;
+      } 
+      div.userinfo button {
+    margin-top:11px;
+      }     
+}
