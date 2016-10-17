@@ -40,10 +40,10 @@
     padding-left: 15px;
 }
 
-.nav li:hover .subnav {
+/*.nav li:hover .subnav {
   display: block;
   max-height: 200px;
-}
+}*/
 
 .subnav a {
   background-color: #999;
