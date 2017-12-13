@@ -1,0 +1,8 @@
+#calendar{
+    width: 80%;
+    margin-left: 50px;
+}
+#calendar th, td{
+    width: 14%;
+    border: 1px solid black;
+}

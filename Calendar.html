@@ -1,0 +1,166 @@
+<html>
+
+<head>
+	<title>Admin Panel</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/panel.css" type="text/css">
+	<link rel="stylesheet" href="css/topbar.css" type="text/css">
+	<link rel="stylesheet" href="css/mainnav.css" type="text/css">
+	<link rel="stylesheet" href="css/calendar.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+	<div id="header">
+		<div class="hamburger">
+			<a href="#" class="mainhamburger">&#9776;</a>
+		</div>
+		<div class="logo">
+			<a href="#">Time<span>Manager</span></a>
+		</div>
+		<div class="userinfo">
+			<div class="username">
+				Guten Tag, Michael <span class="lastname">Prattinger</span>
+			</div>
+			<button type="button" class="btn btn-link navbar-btn navbar-link">
+                    <span class="fa fa-sign-out logout-icon" aria-hidden="true"></span><span class="logout-text">Ausloggen</span>
+                </button>
+		</div>
+	</div>
+	<div id="container">
+		<div class="sidebar">
+			<ul class="menu">
+				<li><a href="#"><i class="icon flaticon-busines-card"></i><span>Mitarbeiter</span></a></li>
+				<li><a href="#" class="has-sub-menu"><i class="icon flaticon-work-team"></i><span>Usermanagement</span></a>
+					<ul class="submenu">
+						<li><a href="#"><i class="icon flaticon-worker-with-tie"></i><span>Butzer</span></a></li>
+						<li><a href="#"><i class="icon flaticon-chain-of-command"></i><span>Rollen</span></a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="has-sub-menu"><i class="icon flaticon-two-big-gears"></i><span>Einstellungen</span></a>
+					<ul class="submenu">
+						<li><a href="#"><i class="icon flaticon-calendar-with-squares"></i><span>Feiertage</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<table id="calendar">
+				<tr>
+					<th>Montag</th>
+					<th>Dienstag</th>
+					<th>Mittwoch</th>
+					<th>Donnerstag</th>
+					<th>Freitag</th>
+					<th>Samstag</th>
+					<th>Sonntag</th>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td colspan="3">1.</td>
+							</tr>
+							<tr>
+								<td>07:00</td>
+								<td>-</td>
+								<td>17.00</td>
+							</tr>
+						</table>
+					</td>
+					<td><table>
+							<tr>
+								<td colspan="3">1.</td>
+							</tr>
+							<tr>
+								<td>07:00</td>
+								<td>-</td>
+								<td>17.00</td>
+							</tr>
+						</table>
+						</td>
+					<td>
+						<table>
+							<tr>
+								<td colspan="3">1.</td>
+							</tr>
+							<tr>
+								<td>07:00</td>
+								<td>-</td>
+								<td>17.00</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td colspan="3">1.</td>
+							</tr>
+							<tr>
+								<td>07:00</td>
+								<td>-</td>
+								<td>17.00</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						
+					</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+
+		<script src="lib/jquery-3.1.1.min.js"></script>
+		<script src="lib/bootstrap.min.js"></script>
+		<script src="js/nav.js"></script>
+		<script>
+			function init() {
+				$("a.my-tooltip").tooltip();
+			}
+
+			init();
+		</script>
+</body>
+
+</html>
